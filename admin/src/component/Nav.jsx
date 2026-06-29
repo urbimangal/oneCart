@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Logo from "../assets/Logo.png"
 import axios from 'axios'
-import { AuthDataContext } from '../context/authContext'
+import { AuthDataContext } from '../context/AuthContext'
 import { adminDataContext } from '../context/AdminContext'
 function Nav() {
   let navigate=useNavigate()
