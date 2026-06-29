@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import Sidebar from '../component/Sidebar'
 import Nav from '../component/Nav'
 import axios from 'axios'
-import { AuthDataContext } from '../context/authContext'
+import { AuthDataContext } from '../context/AuthContext'
 
 function Lists() {
   let [list,setList]=useState([])
