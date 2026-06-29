@@ -4,7 +4,7 @@ import { FaEyeSlash,FaEye } from "react-icons/fa";
 import { useState } from 'react';
 import axios from "axios"
 import { useContext } from 'react';
-import { AuthDataContext } from '../context/authContext';
+import { AuthDataContext } from '../context/AuthContext';
 import { adminDataContext } from '../context/AdminContext';
 import { useNavigate } from 'react-router-dom';
 function Login() {
