@@ -6,7 +6,7 @@ import { FaEyeSlash } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom'
 import { authDataContext } from '../context/AuthContext';
 import axios from 'axios';
-import { auth, provider } from '../utils/firebase';
+import { auth, provider } from '../../utils/firebase';
 import { signInWithPopup } from 'firebase/auth';
 import { userDataContext } from '../context/UserContext';
 function Login() {
