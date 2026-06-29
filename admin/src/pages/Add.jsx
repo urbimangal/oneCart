@@ -3,7 +3,7 @@ import Nav from '../component/Nav'
 import Sidebar from '../component/Sidebar'
 import uploadImage from "../assets/uploadImage.png"
 import { useState } from 'react'
-import { AuthDataContext } from '../context/authContext'
+import { AuthDataContext } from '../context/AuthContext'
 import axios from 'axios'
 function Add() {
   let [image1,setImage1]=useState(false)
